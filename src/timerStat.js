@@ -9,20 +9,21 @@ var bizMenuStat = require('./bl/BizMenuStat.js');
 var customerCheckInStat = require('./bl/CustomerCheckInStat.js');
 var statDate = require('./bl/StatDate.js');
 
-
-var basic = {};
+later.date.localTime();
+var basic = {h:[0],m: [10]};
 /*var basic0 = {s:[55]};
 var basic1 = {s:[15]};
 var basic2 = {s:[35]};
 var basic3 = {s:[25]};
 var basic4 = {s:[45]};
 var basic5 = {s:[5]};*/
-var composite = [basi0];
+//var composite = [basic];
+var composite = [basic];
 var sched =  {
     schedules:composite
 };
 
-try{
+ try{
     later.setInterval(function() {
         var dateKey ;
         Seq().seq(function() {
@@ -109,4 +110,13 @@ try{
 }
 
 
+/*
+    later.setInterval(function() {
+        test(Math.random(10));
+    }, sched);
 
+function test(val) {
+    console.log(new Date());
+    console.log(val);
+}
+*/
