@@ -6,7 +6,7 @@ var mysqlConnectOptions ={
     user: 'root',
     password: 'Mission94539',
     database:'bw',
-    host: 'bw.cf9yrfbrszri.us-west-1.rds.amazonaws.com'
+    host: 'bw.c9erfktsehne.us-west-1.rds.amazonaws.com'
 };
 
 var mongodbConnectionOptions = {
